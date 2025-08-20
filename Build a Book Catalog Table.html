@@ -1,0 +1,78 @@
+Build a Book Catalog Table
+Build an app that is functionally similar to this example project. Try not to copy the example project, give it your own personal style.
+
+Objective: Fulfill the user stories below and get all the tests to pass to complete the lab.
+
+User Stories:
+
+You should create a table element that lists book information.
+Your table should have a table head element with one row in it.
+The row in your table head element should have four table header elements, with the text of Title, Author, Genre, and Publication Year, in that order.
+Your table should have a table body element with at least five rows in it.
+Each row in your table body should have four table data elements that display the book's Title, Author, Genre, and Publication Year.
+Your table should have a table footer element with one row in it.
+The row in your table footer element should have a table data element that spans four columns and has the text Total Books: N where N should be replaced by the number of books in your table.
+
+CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Catalog</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+      <th>Publication Year</th>
+      </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td>Mahabharat</td>
+        <td>Veda Vyas</td>
+        <td>War and Philosophy</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Ramayana</td>
+        <td>Valmiki</td>
+        <td>Philosophy and Drama</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Quantitative Aptitude</td>
+        <td>R.D.Sharma</td>
+        <td>Aptitude</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Verbal Reasoning</td>
+        <td>R.D.Sharma</td>
+        <td>Reasoning</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Rich Dad Poor Dad</td>
+        <td>Robert</td>
+        <td>Personal finance</td>
+        <td>1997</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+    </table>
+
+</body>
+
+</html>
