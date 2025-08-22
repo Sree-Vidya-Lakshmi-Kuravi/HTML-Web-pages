@@ -1,0 +1,57 @@
+Build a Multimedia player
+
+You should have an h1 element for the main title of the page.
+You should have three section elements.
+Inside the first section element, you should have an h2 element for the title of song playing.
+Below the h2 element, you should have an audio element with controls attribute and an aria-label attribute.
+Inside the audio element, you should have a source element with a src attribute pointing to an audio file and a type attribute. You are free to use this audio URL if you like: https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3
+Inside the second section element, you should have an h2 element for the title of the video playing.
+Below the h2 element, you should have a video element with controls, width attributes and an aria-label attribute.
+Inside the video element, you should have a source element with a src attribute pointing to a video file and a type attribute. You are free to use this video URL if you like: https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4
+Below the source element, you should have a track element with a src attribute pointing to a subtitles file and a kind attribute, a srclang attribute and a label attribute.
+Inside the third section element, you should have an h2 element for the title of the section eg. "Transcript".
+Below the h2 element, you should have a p element with the transcript of the video.
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+
+<body>
+  <h1>NANI'S GANG LEADER PLAYLIST</h1>
+  <section>
+    <h2>Hoyna Hoyna</h2>
+    <audio controls aria-label="Anirudh Ravichander, Inno Genga">
+    <source src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3D91EzD9VgwGk%26t%3D154s&psig=AOvVaw09SAzWJuJj-0TGdLfeAyxY&ust=1755956601930000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwig9KGxxZ6PAxUAAAAAHQAAAAAQBA" type="audio">
+        </audio>
+  </section>
+  <section>
+    <h2>A feel good telugu song</h2>
+    <video controls aria-label="Anirudh Ravichander" 
+    width="30">
+    <source src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.youtube.com%2Fwatch%3Fv%3D91EzD9VgwGk%26t%3D154s&psig=AOvVaw09SAzWJuJj-0TGdLfeAyxY&ust=1755956601930000&source=images&cd=vfe&opi=89978449&ved=0CAYQrpoMahcKEwig9KGxxZ6PAxUAAAAAHQAAAAAQBA" type="video">
+        <track src= "Think I Caught The Feels This Summer
+        Bae You are One Of A Kind No Other
+        Be My Sweetie, Be My Sugar
+        Had Enough As A One Side Lover
+        I Think I Caught The Feels This Summer
+        Bae You are One Of A Kind No Other
+        Be My Sweetie, Be My Sugar
+        Had Enough As A One Side Lover, yeah"  
+        kind= "text"
+        srclang="english"
+        label = "English language" >
+      </video>
+  </section>
+  <section>
+    <h2>Nani's Gangleader</h2>
+    <p>Nani's Gangleader</p>
+  </section>
+
+</body>
+
+</html>
